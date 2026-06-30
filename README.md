@@ -14,3 +14,22 @@ A simple and efficient tool for managing personal expenses directly from your te
    ```bash
    git clone <your-repository-link>
    cd expense-tracker
+
+## Usage
+1. Add an Expense:
+    ```bash
+   python3 expense-tracker.py add --description "Lunch" --amount 20
+
+2. List Expenses
+   ```bash
+   python3 expense-tracker.py list
+
+3. Summary
+   ```bash
+   python3 expense-tracker.py summary
+   python3 expense-tracker.py summary --month 8
+
+4. Delete an Expense:
+   ```bash
+   python3 expense-tracker.py delete --id 1
+
